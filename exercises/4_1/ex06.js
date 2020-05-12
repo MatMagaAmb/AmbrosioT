@@ -1,4 +1,4 @@
-let peca = "REI";
+let peca = "REII";
 let a = peca.toLowerCase();
 //let peca = a.toLowerCase() ;
 switch(a){
@@ -20,4 +20,6 @@ switch(a){
 	case "peao":
 		console.log("peão se move 2 casas pra frente na primeira jogada dele, e apenas uma nas demais ")
 		break;
+	default:
+		console.log("nome de peça errado")
 }
