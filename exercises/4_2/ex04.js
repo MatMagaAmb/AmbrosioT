@@ -7,10 +7,4 @@ for(let i = 0;i < numbers.length; i++){
 }else{
     console.log("valor menor ou igual a 20");
 }
-
-
-
-
-
-
 console.log(soma / (numbers.length-1));
