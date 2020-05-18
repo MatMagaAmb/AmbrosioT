@@ -3,6 +3,7 @@ function verificaFimPalavra(word, ending){
   let nLetras = 0;
   let resul = false;
   let diference = (word.length - ending.length);
+  
   if(word.length > ending.length){
     for(let i = diference; i < word.length;i++ ){
       if(word[i] === ending[j]){
